@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font-family: "Changa One", cursive;
+}
+
+header{
+    background: linear-gradient(180deg, #4E3B95 30.21%, #2D1F56 100%);
+    color: white;
+    height: 45vh;
+    padding: 2rem;
+    display: flex;
+}
+
+.heart-container{
+    width: 15rem;
+    height: 15rem;
+    border: none;
+    background: linear-gradient(135deg, #4117B8 30.21%, rgba(123, 136, 148, 0.71) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-heart{
+    width: 5rem;
+}
+
+.headings-container{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+p{
+    font-weight: 200;
+    margin: 0;
+}
+
+main{
+    background: linear-gradient(180deg, #1E1739 30.21%, #121212 100%);
+    color: #adadad;
+    padding: 2rem;
+}
+
+.play{
+    width: 3rem;
+}
+
+table{
+    width: 100%;
+}
+
+thead, .album, .fecha, .duracion, span{
+    font-size: 0.85rem;
+    font-weight: 200;
+}
+
+th{
+    text-align: start;
+}
+
+.time-icono{
+    text-align: center;
+}
+
+.arrow{
+    width: 0.75rem;
+}
+
+.id, .title{
+    color: white;
+}
+
+.green-heart{
+    width: 1rem;
+    margin-right: 2rem;
+}
+
+.album-image{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.title{
+    display: flex;
+}
+
+span{
+    color: #adadad;
+
+}

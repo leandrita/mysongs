@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: RGB(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 70%;
+}
