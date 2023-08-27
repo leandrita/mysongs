@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('mysongs', function (Blueprint $table) {
             $table->id();
+            $table->string('Imagen');
             $table->text('Titulo');
             $table->text('Autor');
             $table->string('Album');

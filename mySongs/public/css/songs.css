@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
 body{
     margin: 0;
     font-family: "Changa One", cursive;
@@ -10,7 +6,7 @@ body{
 header{
     background: linear-gradient(180deg, #4E3B95 30.21%, #2D1F56 100%);
     color: white;
-    height: 45vh;
+    height: 30vh;
     padding: 2rem;
     display: flex;
 }
@@ -27,6 +23,10 @@ header{
 
 .white-heart{
     width: 5rem;
+}
+
+.t-height{
+ height: 40vh;
 }
 
 .headings-container{
@@ -48,6 +48,7 @@ p{
 }
 
 main{
+    height: 55vh;
     background: linear-gradient(180deg, #1E1739 30.21%, #121212 100%);
     color: #adadad;
     padding: 2rem;
@@ -64,6 +65,11 @@ table{
 thead, .album, .fecha, .duracion, span{
     font-size: 0.85rem;
     font-weight: 200;
+}
+
+.duracion{
+    display: flex;
+    align-items: center;
 }
 
 th{
