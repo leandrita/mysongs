@@ -1,66 +1,81 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# My Songs
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Objetivos
 
-## About Laravel
+> 🎶 Vamos a realizar un ejercicio en parejas sencillo, crearemos con Laravel una landing page de nuestras canciones favoritas haciendo una réplica de la app de *Spotify*. Es importante que te impliques mucho en este proyecto para que entiendas las bases de laravel y te sea más fácil para los siguientes proyectos.
+> 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📓 Competencias técnicas
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Crear una interfaz de usuario web dinámica - Nivel 3: Crear
+- Desarrollar la parte backend - Nivel 2: Adaptar
+- Crear una base de datos - Nivel 3: Crear
+- Desarrollar los componentes de acceso a los datos - Nivel 2: Adaptar
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 💻 Tecnologías
 
-## Learning Laravel
+- HTML
+- CSS
+- PHP - Laravel
+- MySQL
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🛠Herramientas
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- Visual Studio Code
+- Git / GitHub
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Objetivos
 
-## Laravel Sponsors
+Deberán desarrollar una landing page sencilla utilizando Laravel con arquitectura MVC estilo monolítica (se usarán las plantillas Blade de Laravel para las vistas) con conexión a una base de datos en MySQL.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- El diseño ya viene dado por la empresa, así que por esta vez no tendrán que hacer maquetas ni prototipos.
+- Tiene que poder funcionar en desktop (por esta vez no haremos responsive ni mobile first).
+- Se usará una base de datos en MySQL.
+- Todos los usuarios podrán ver las canciones (~~C~~R~~UD~~).
 
-### Premium Partners
+## Metodología y fases del proyecto
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Es un trabajo en parejas, en el que se creará un proyecto con Laravel con plantillas Blade, conectado a una base de datos MySQL. Este ejercicio es para ubicarnos en Laravel, no pasa nada si no lo terminan ya que tendremos la oportunidad de continuar realizando proyectos de este tipo. Este ejercicio no les debería tomar más de un par de horas en realizarlo, pero nuevamente, no pasa nada si no lo terminan a tiempo, ya que estamos en un entorno de aprendizaje.
 
-## Contributing
+El objetivo es que sepas como crear un proyecto de Laravel desde 0, como conectar a una base de datos, como generar rutas y que entiendas la arquitectura MVC de estilo monolítica.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Temas
 
-## Code of Conduct
+- Html - Css - Javascript
+- PHP - Laravel
+- MySQL
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Requisitos Funcionales (comportamientos del software)
 
-## Security Vulnerabilities
+- La página de inicio contendrá solo el logo de *Spotify* que al hacer click nos llevará a nuestra página de canciones.
+- La página de canciones debe contener todas aquellas que están en nuestra base de datos, donde se mostrará el id, el título, el artista, el álbum, el año en que se añadió, la duración en minutos y una imagen del álbum.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Requisitos no funcionales (atributos de calidad)
 
-## License
+- Se deberá usar Laravel
+- Se puede usar cualquier librería de CSS.
+- La imagen puede ser un *link* o un dato tipo *blob*.
+- Los commits del repositorio deben relacionarse con el checklist de tareas.
+- Los registros a la base de datos entrarán por medio de *seeders*.
+- Debe estar testeado.
+- Se debe usar *Blade* para la vista y hacer un estilo de arquitectura monolítica, ordenando las carpetas y separando el código a reutilizar .
+- ⭐ BONUS: se puede usar *Livewire*,  si no te apetece usar *Blade*.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Diseño UI
+
+Habrá que basarse en estas 2 maquetas para hacer nuestra réplica.
+
+<img src="public/mockups/Spotify.jpg">
+<img src="public/mockups/Spot.jpg">
+
+## Entregables
+
+- **Habrá una revisión grupal**
+
+## Competencias a adquirir
+
+- Replicar un diseño que ya viene dado.
+- Desarrollar una interfaz de usuario web dinámica.
+- Desarrollar la parte backend con PHP.
+- Crear una base de datos con MySQL.
+- Desarrollar los componentes de acceso a los datos.
